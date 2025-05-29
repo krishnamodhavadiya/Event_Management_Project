@@ -1,245 +1,291 @@
-# Event Management System
-
 <div align="center">
-  <img src="https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=white" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-18.x-339933?logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express-4.18.2-000000?logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/MongoDB-8.0.3-47A248?logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-3.3.7-06B6D4?logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  
+# 🎉 Event Management System 🎭
+
+> ### A modern, full-stack solution for seamless event organization and management
+> *Where every event becomes an experience* ✨
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](CONTRIBUTING.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+
+<div style="display: flex; justify-content: center; gap: 10px; margin: 20px 0;">
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express.js-404D59?style=flat-square" alt="Express" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
 </div>
 
-## 🌟 Overview
+</div>
 
-A full-stack event management system built with React, Node.js, Express, and MongoDB. This platform allows users to browse events, register for them, and manage their profiles. Administrators can manage events, users, and view analytics.
+<!-- Animated Divider -->
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=3000&pause=500&color=38B2AC&center=true&vCenter=true&width=435&lines=✨+Transforming+Event+Management;🚀+Powered+by+MERN+Stack;💡+Modern+UI+%2B+Robust+Backend" alt="Typing SVG" />
+</div>
 
-## 📱 Screenshots
+✨ **Featured:** Modern UI/UX • Real-time Updates • Secure Authentication • Admin Dashboard
 
-### User Interface
+</div>
 
-#### Home Page
-![Home Page](./images/homepage.jpeg)
-*Welcome to the Event Management System*
+## ✨ <span id="key-features">Key Features</span>
 
-#### Events Page
-![Events Page](./images/eventpage.jpeg)
-*Browse and discover upcoming events*
+<div align="center">
+  <table>
+    <tr>
+      <td width="33.3%" align="center">
+        <h4>🔐 User Authentication</h4>
+        <p>Secure login and registration with JWT and password hashing</p>
+      </td>
+      <td width="33.3%" align="center">
+        <h4>📅 Event Management</h4>
+        <p>Complete CRUD operations with image uploads</p>
+      </td>
+      <td width="33.3%" align="center">
+        <h4>👑 Admin Dashboard</h4>
+        <p>Comprehensive panel for users, events, and categories</p>
+      </td>
+    </tr>
+    <tr>
+      <td width="33.3%" align="center">
+        <h4>📱 Responsive Design</h4>
+        <p>Seamless experience across all devices</p>
+      </td>
+      <td width="33.3%" align="center">
+        <h4>🖼️ Media Management</h4>
+        <p>Cloudinary integration for image handling</p>
+      </td>
+      <td width="33.3%" align="center">
+        <h4>⚡ Real-time Updates</h4>
+        <p>Dynamic content loading without page refresh</p>
+      </td>
+    </tr>
+  </table>
+</div>
 
-#### Gallery
-![Gallery](./images/gallarypage.jpeg)
-*View photos from past events*
+---
+### Frontend, Backend, and Development Tools
 
-#### About Us
-![About Us](./images/aboutpage.jpeg)
-*Learn more about our mission and team*
+<div align="center">
+  <table>
+    <tr>
+      <td width="33.3%" align="center">
+        <h4>Frontend</h4>
+        <p>React, React Router, Tailwind CSS, Axios, React Icons, React Toastify</p>
+      </td>
+      <td width="33.3%" align="center">
+        <h4>Backend</h4>
+        <p>Node.js, Express, MongoDB, JWT, Bcrypt, Cloudinary</p>
+      </td>
+      <td width="33.3%" align="center">
+        <h4>Development Tools</h4>
+        <p>Git, Postman, VS Code, NPM</p>
+      </td>
+    </tr>
+  </table>
+</div>
 
-#### Contact Us
-![Contact Us](./images/contectuspage.jpeg)
-*Get in touch with our team*
+---
 
-#### User Profile
-![User Profile](./images/profilepage.jpg)
-*Manage your personal information and event registrations*
+## 🚀 Getting Started
 
-### Admin Panel
+### 📋 Prerequisites
 
-#### Admin Login
-![Admin Login](./images/Admin-login.jpeg)
-*Secure admin authentication*
+Before you begin, ensure you have installed the following:
 
-#### Dashboard
-![User Management](./images/userlist-ADMIN%20SIDE.jpeg)
-*Manage system users and their permissions*
+- ![Node.js](https://img.shields.io/badge/Node.js-18.x-339933?logo=node.js) (v16 or later)
+- ![npm](https://img.shields.io/badge/npm-8.x-CB3837?logo=npm) (v8 or later)
+- ![MongoDB](https://img.shields.io/badge/MongoDB-6.0+-47A248?logo=mongodb) (v6.0 or later)
+- ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 
-#### Event Management
-![Event Management](./images/eventpost-ADMIN%20SIDE.jpeg)
-*Create and manage events*
+### 🛠 Installation
 
-#### Category Management
-![Category Management](./images/post%20catagory-ADMIN%20SIDE.jpeg)
-*Organize events into categories*
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/neel1112/Event_Management_Project.git
+   cd Event_Management_Project
+   ```
 
-#### User Details
-![User Details](./images/personal%20details-ADMIN%20SIDE.jpeg)
-*View and manage user information*
+2. **Install dependencies**
+   ```bash
+   # Install frontend dependencies
+   cd front
+   npm install
+   
+   # Install backend dependencies
+   cd ../back
+   npm install
+   ```
 
-## 🚀 Features
+1. **Clone the repository**
+   ```bash
+   # Clone the repository
+   git clone https://github.com/neel1112/Event_Management_Project.git
+   
+   # Navigate to project directory
+   cd Event_Management_Project
+   ```
 
-### Frontend
-- **User Authentication** - Login/Register functionality with JWT
-- **Event Management** - Browse, filter, and search events
-- **Responsive Design** - Mobile-first approach with Tailwind CSS
-- **Interactive UI** - Modern and intuitive user interface
-- **Real-time Updates** - Dynamic content loading and updates
+2. **Set up the backend**
+   ```bash
+   # Navigate to backend directory
+   cd back
+   
+   # Install dependencies
+   npm install
+   
+   # Create a .env file (see configuration below)
+   cp .env.example .env
+   ```
 
-### Backend
-- **RESTful API** - Well-structured API endpoints
-- **Authentication** - Secure JWT-based authentication
-- **File Upload** - Image upload using Cloudinary
-- **Database** - MongoDB with Mongoose ODM
-- **Security** - CORS, rate limiting, and input validation
+3. **Set up the frontend**
+   ```bash
+   # Navigate to frontend directory
+   cd ../front
+   
+   # Install dependencies
+   npm install
+   
+   # Create a .env file
+   cp .env.example .env
+   ```
 
-## 🎥 Demo
+## ⚙️ Configuration
 
-Experience the application in action:
-- **User Interface**: [Live Demo](#) (Coming Soon)
-- **Admin Panel**: [Admin Demo](#) (Contact for access)
+### Backend Setup
 
-## 🛠️ Prerequisites
+1. Create a `.env` file in the `back` directory with the following variables:
 
-- Node.js (v18 or higher)
-- npm (v9 or higher) or yarn
-- MongoDB Atlas account or local MongoDB installation
-- Cloudinary account (for image uploads)
+   ```env
+   # Server Configuration
+   PORT=5000
+   NODE_ENV=development
+   
+   # MongoDB
+   MONGODB_URI=your_mongodb_connection_string
+   
+   # JWT
+   JWT_SECRET=your_jwt_secret_key
+   JWT_EXPIRE=30d
+   
+   # Cloudinary
+   CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+   CLOUDINARY_API_KEY=your_cloudinary_api_key
+   CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+   
+   # Optional: Twilio (for notifications)
+   TWILIO_ACCOUNT_SID=your_twilio_sid
+   TWILIO_AUTH_TOKEN=your_twilio_token
+   TWILIO_PHONE_NUMBER=your_twilio_phone
+   ```
 
-## 🚀 Installation
+### Frontend Setup
 
-### 1. Clone the Repository
+1. Create a `.env` file in the `front` directory:
 
-```bash
-git clone https://github.com/your-username/event-management-system.git
-cd event-management-system
-```
+   ```env
+   # API Configuration
+   REACT_APP_API_URL=http://localhost:5000
+   
+   # Optional: Google Analytics
+   REACT_APP_GA_TRACKING_ID=your_ga_tracking_id
+   ```
 
-### 2. Backend Setup
-
-```bash
-# Navigate to backend directory
-cd back
-
-# Install dependencies
-npm install
-
-# Create a .env file in the back directory with the following variables:
-cp .env.example .env
-
-# Edit the .env file with your configuration
-```
-
-### 3. Frontend Setup
-
-```bash
-# Navigate to frontend directory
-cd ../front
-
-# Install dependencies
-npm install
-
-# Create a .env file in the front directory
-# Add your environment variables (e.g., REACT_APP_API_URL)
-```
-
-## ⚙️ Environment Variables
-
-### Backend (.env)
-```env
-PORT=4597
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-JWT_EXPIRY=7d
-CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-CORS_ORIGIN=http://localhost:3000
-```
-
-### Frontend (.env)
-```env
-REACT_APP_API_URL=http://localhost:4597
-```
-
-## 🚦 Running the Application
+## 🚀 Running the Application
 
 ### Development Mode
 
-1. Start the backend server:
+1. **Start Backend Server**
    ```bash
    cd back
    npm run dev
    ```
+   > Server will be running at `http://localhost:5000`
 
-2. In a new terminal, start the frontend development server:
+2. **Start Frontend Development Server**
    ```bash
+   # In a new terminal
    cd front
    npm start
    ```
-
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+   > Application will open at `http://localhost:3000`
 
 ### Production Build
 
-```bash
-# Build the frontend for production
-cd front
-npm run build
+1. **Build Frontend**
+   ```bash
+   cd front
+   npm run build
+   ```
 
-# The built files will be in the `build` directory
-```
+2. **Serve Production Build**
+   ```bash
+   # Install serve if not installed
+   npm install -g serve
+   
+   # Serve the static files
+   serve -s build
+   ```
 
-## 📂 Project Structure
+### Access Points
 
-```
-event-management-system/
-├── back/                    # Backend server
-│   ├── src/
-│   │   ├── config/         # Configuration files
-│   │   ├── controllers/     # Route controllers
-│   │   ├── middleware/      # Custom middleware
-│   │   ├── models/          # Mongoose models
-│   │   ├── routes/          # API routes
-│   │   ├── utils/           # Utility functions
-│   │   ├── app.js          # Express app configuration
-│   │   └── index.js        # Server entry point
-│   └── package.json
-│
-└── front/                   # Frontend React app
-    ├── public/             # Static files
-    └── src/
-        ├── assets/        # Images, fonts, etc.
-        ├── components/     # Reusable UI components
-        ├── pages/          # Page components
-        ├── services/       # API services
-        ├── styles/         # Global styles
-        ├── utils/          # Helper functions
-        ├── App.js          # Main App component
-        └── index.js        # React entry point
-```
+- **User Interface**: http://localhost:3000
+- **Admin Dashboard**: http://localhost:3000/admin
+- **API Documentation**: http://localhost:5000/api-docs (if Swagger/OpenAPI is configured)
 
-## 🔧 API Endpoints
+## 📸 Screenshots
+
+### User Interface
+
+| Section | Screenshot | Description |
+|---------|------------|-------------|
+| **Home Page** | ![Home Page](./Images/homepage.jpeg) | Landing page with featured events and navigation |
+| **About Us** | ![About Page](./Images/aboutpage.jpeg) | Information about our platform |
+| **Events** | ![Events Page](./Images/eventpage.jpeg) | Browse and search events |
+| **Gallery** | ![Gallery Page](./Images/gallarypage.jpeg) | Visual showcase of past events |
+| **Contact** | ![Contact Us Page](./Images/contectuspage.jpeg) | Get in touch with us |
+| **Profile** | ![Profile Page](./Images/profilepage.jpg) | User profile and events |
+
+### Admin Interface
+
+| Section | Screenshot | Description |
+|---------|------------|-------------|
+| **Login** | ![Admin Login](./Images/Admin-login.jpeg) | Secure admin authentication |
+| **User Management** | ![User List - Admin](./Images/userlist-ADMIN%20SIDE.jpeg) | Manage all users |
+| **Event Management** | ![Event Post - Admin](./Images/eventpost-ADMIN%20SIDE.jpeg) | Create and edit events |
+| **Categories** | ![Post Category - Admin](./Images/post%20catagory-ADMIN%20SIDE.jpeg) | Manage event categories |
+| **Admin Profile** | ![Personal Details - Admin](./Images/personal%20details-ADMIN%20SIDE.jpeg) | Admin account settings |
+
+## 🔑 API Documentation
 
 ### Authentication
-- `POST /api/v1/users/register` - Register a new user
-- `POST /api/v1/users/login` - User login
-- `GET /api/v1/users/me` - Get current user profile
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| `POST` | `/api/auth/register` | Register new user | No |
+| `POST` | `/api/auth/login` | User login | No |
+| `GET` | `/api/auth/me` | Get current user | Yes |
 
 ### Events
-- `GET /api/v1/events` - Get all events
-- `GET /api/v1/events/:id` - Get event by ID
-- `POST /api/v1/events` - Create new event (Admin only)
-- `PUT /api/v1/events/:id` - Update event (Admin only)
-- `DELETE /api/v1/events/:id` - Delete event (Admin only)
 
-## 🤝 Contributing
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| `GET` | `/api/events` | Get all events | No |
+| `GET` | `/api/events/:id` | Get single event | No |
+| `POST` | `/api/events` | Create event | Admin |
+| `PUT` | `/api/events/:id` | Update event | Admin |
+| `DELETE` | `/api/events/:id` | Delete event | Admin |
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+### Users
 
-## 📄 License
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| `GET` | `/api/users` | Get all users | Admin |
+| `GET` | `/api/users/:id` | Get user by ID | Yes |
+| `PUT` | `/api/users/:id` | Update user | Owner/Admin |
+| `DELETE` | `/api/users/:id` | Delete user | Admin |
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## ✨ Acknowledgments
-
-- [React](https://reactjs.org/)
-- [Node.js](https://nodejs.org/)
-- [Express](https://expressjs.com/)
-- [MongoDB](https://www.mongodb.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-
----
 
 <div align="center">
-  Made with ❤️ by Krishna Modhavadiya
+  <p>Made with ❤️ by Krishna Modhavadiya.</p>
+  
 </div>
